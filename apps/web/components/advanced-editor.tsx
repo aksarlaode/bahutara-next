@@ -9,8 +9,8 @@ import {
   type EditorInstance,
   EditorRoot,
   type JSONContent,
-} from "novel";
-import { ImageResizer, handleCommandNavigation } from "novel/extensions";
+} from "@aksar/novel";
+import { ImageResizer, handleCommandNavigation } from "@aksar/novel/extensions";
 import { useEffect, useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import { defaultExtensions } from "./extensions";

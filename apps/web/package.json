@@ -10,6 +10,7 @@
     "format": "biome format . "
   },
   "dependencies": {
+    "@aksar/novel": "workspace:^",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-popover": "^1.0.6",
     "@radix-ui/react-scroll-area": "^1.0.5",
@@ -32,7 +33,6 @@
     "lucide-react": "^0.244.0",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
-    "novel": "workspace:^",
     "openai": "^4.27.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
